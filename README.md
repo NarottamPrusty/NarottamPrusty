@@ -48,3 +48,9 @@
 ### 💡 Fun Quote
 
 > “Code is like humor. When you have to explain it, it’s bad.” – Cory House
+
+###
+
+### 
+
+<img src="https://raw.githubusercontent.com/NarottamPrusty/NarottamPrusty/output/github-contribution-grid-snake.svg" width="100%" />
