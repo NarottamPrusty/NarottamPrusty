@@ -23,6 +23,11 @@ jobs:
           outputs: |
             ./github-contribution-grid-snake.svg
 
+      - name: Create output branch if it doesn't exist
+        run: |
+          git fetch origin output || echo "No remote output branch yet"
+          git checkout -B output
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
